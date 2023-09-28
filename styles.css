@@ -94,3 +94,25 @@ section {
 .bg3 {
   background-image: url(Images/sport-3.jpg);
 }
+
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+  .secHead,
+  .text {
+    padding: 0 2rem;
+  }
+}
+
+/* Media Query for Medium Screens */
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 6rem;
+  }
+}
+
+/* Media Query for Large Screens */
+@media (min-width: 1200px) {
+  .container {
+    min-height: 100vh;
+  }
+}
